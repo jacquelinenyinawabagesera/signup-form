@@ -1,0 +1,105 @@
+#lines{
+  position: relative;
+      max-width: 500px;
+      margin: 30px auto;
+      text-align: center;
+      font-size: 15px;
+}
+#lines:before{
+  content: " ";
+      display: block;
+      height: 0.5px;
+      width: 130px;
+      position: absolute;
+      top: 50%;
+      background: black
+}
+#lines:after{
+  content: " ";
+      height: 0.5px;
+      width: 30%;
+      background: black;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 0;
+}
+input{
+  padding: 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  border:1px solid rgb(216, 205, 205);
+  border-radius: 5px;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: white;
+  padding: 13px;
+  font-size: 17px;
+
+  cursor: pointer;
+  background-color:rgb(155,10,178) ; border: none; color: white;
+  border-radius: 3px;
+}
+button:hover {
+  color: black;
+  background-color:rgb(224, 138, 240);
+}
+body{
+  background-color:rgb(246, 232, 248);
+}
+.container{
+  display: flex; gap: 30px; margin-top: 100px;justify-content: center;
+}
+.image-container{
+  display: flex; flex-direction: column;
+  border-right: 1px solid rgb(187, 168, 186);
+}
+.image-container h1{
+  color: rgb(154,8,217); font-family: normal;font-size:xx-large;margin-left: 140px;
+}
+.icon{
+  display: flex; justify-content: space-around;
+}
+.fa-facebook-f{
+  color: #0273ca; font-size: 20px;width: 20%;background-color: white; text-align: center;padding: 5px; border-radius: 5px;
+}
+.fa-apple{
+  font-size: 20px; width: 20%;background-color: white; text-align: center;padding: 5px; border-radius: 5px;
+}
+.icon svg{
+  font-size: 20px;width: 20%;background-color: white; text-align: center;padding: 5px; border-radius: 5px;
+}
+.input{
+  display: flex; gap:50px;
+}
+.input input{
+  display: block; width: 95%;
+}
+ #input{
+  position: relative;}
+#input input{
+  display: block; width: 95%;
+} 
+#input i{
+  position: absolute;top:40px; right: 8px;
+}
+
+.input i{
+  position: absolute;top:40px; right: 8px;
+}
+
+.input-comfirm-password{
+  position: relative;
+}
+.input-comfirm-password input{
+  display: block; width: 95%;
+}
+.input-email{
+  display: block; width: 95%;
+}
+.input-comfirm-password i{
+  position: absolute; top:40px; right: 8px;
+}
