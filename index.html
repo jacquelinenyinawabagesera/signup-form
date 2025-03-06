@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <form action="">
@@ -14,12 +15,12 @@
         <h1>Welcome to our <br> community!</h1>
     <img src="./images/signup.webp" alt="Signup image">
     </div>
-      <div>
-        <h1>Create Account</h1>
-        <p>Sign up to account below</p>
+      <div class="form-container">
+        <h2>Create Account</h2>
+        <p>Sign up to your account below.</p>
          <div class="input">
             <div>
-            <label for="firstname">First Name</label>
+            <label for="firstname" >First Name</label>
             <input type="text" placeholder="|" id="firstname" required>
         </div>
         <div>
@@ -32,15 +33,15 @@
          <div id="input">
             <label for="password">Password</label>
             <input type="password" id="password" placeholder="|" required>
-            <i class="fa-solid fa-eye"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
          </div>
          <div class="input-comfirm-password">
             <label for="comfirmpassword">Confirm Password</label>
             <input type="password" placeholder="|" id="comfirmpassword" required>
-            <i class="fa-solid fa-eye"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></svg>
          </div>
          <button type="submit"> Create Account</button>
-         <label for="" style="margin-left: 100px;">Already have an account? <a href="#" style="text-decoration: none; color: rgb(156, 3, 184) ;"> Sign In</a> </label>
+         <p id="p">Already have an account? <a href="#"> Sign In</a> </p>
          <h2 id="lines">Or</h2>
          <div class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28" height="28" viewBox="0 0 48 48">
