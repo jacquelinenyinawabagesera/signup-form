@@ -58,7 +58,7 @@ body{
   border-right: 1px solid rgb(187, 168, 186);
 }
 .image-container h1{
-  color: rgb(154,8,217); font-family: normal;font-size:xx-large;margin-left: 140px;
+  color: rgb(154,8,217);font-size:40px;margin-left: 140px;font-family: Roboto;
 }
 .icon{
   display: flex; justify-content: space-around;
