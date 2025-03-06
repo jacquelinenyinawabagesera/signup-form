@@ -137,5 +137,6 @@ label{
   color: rgb(97, 89, 89);
 }
 #p a{
-  text-decoration: none; color: rgb(156, 3, 184) ;
+  text-decoration: none; color: rgb(162, 2, 190) ;
+  font-weight: bold;
 }
